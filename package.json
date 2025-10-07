@@ -1,0 +1,21 @@
+{
+  "name": "test-assignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "page":"https:/kurnikovmihail.github.io/Test-Assignment",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "gh-pages": "6.3.0",
+    "vite": "^7.1.7"
+  }
+}
