@@ -28,8 +28,8 @@
     </div>
 
     <div class="labels">
-      <div class="label">Цена: {{ state.price }}</div>
-      <div class="label">Количество: {{ state.qty }}</div>
+      <div class="label">Цена за товар: {{ state.price }}</div>
+      <div class="label">Количество товара: {{ state.qty }}</div>
       <div class="label">Сумма: {{ state.amount }}</div>
       <div class="label">
         localStorage:
